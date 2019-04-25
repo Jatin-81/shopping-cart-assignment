@@ -11,7 +11,7 @@ $('#login').click(()=>{
       localStorage.setItem('useremail',data.data.email)
       localStorage.setItem('userid',data.data.id)
 
-      if(data.data.email==="jatin@gmail.com")
+      if(data.data.email==="jatin.kumar@gmail.com")
       {
        window.location = "/VendorUI/Vendor.html";
 
